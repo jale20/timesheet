@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.month{
+    width: 15%;
+    display: inline-block;
+    margin: 2rem 0;    
+    background: #0000ff;
+    padding: 1rem 3rem;
+    text-align: center;
+}
+
+.months a{
+    color: #fff;
+    
+}
+
+.months a:hover{
+    text-decoration: none;
+}
+
+th, td{
+    padding: 1rem;
+}
