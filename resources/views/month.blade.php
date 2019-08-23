@@ -12,7 +12,7 @@
 
             @foreach($month as $dates)
                 <div class="month">
-                    <a href="../public/grid/{{ $dates->date_id }}">{{ $dates -> month }}</a>
+                    <a onclick="Cookies.set('monthName', '{{ $dates->date_id }}');" href="../public/grid/{{ $dates->date_id }}">{{ $dates -> month }}</a>
                 </div>
             @endforeach
 
