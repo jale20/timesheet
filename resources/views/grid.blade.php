@@ -53,7 +53,7 @@
                     <p class="d-inline-block mt-4">Monthly Working Days : <p class="working_days d-inline-block"></p> days</p>
                     <p class="d-inline-block mt-4">Sick Leave : <p class="sick_leave d-inline-block"></p> days</p>
                     <p class="d-inline-block mt-4">Vacation : <p class="vacation d-inline-block"></p> days</p>
-                    <p class="d-inline-block mt-4">Over Time : <p class="over_time d-inline-block"></p> days</p>
+                    <p class="d-inline-block mt-4">Over Time : <p class="over_time d-inline-block"></p> hours</p>
                     <p class="d-inline-block mt-4">Holidays and Non-working days : <p class="holidays_non-working-days d-inline-block"></p> days</p>
                     
                     <button type="submit" class="btn btn-success mt-5 float-right" id = "submitBtnId">Submit</button>

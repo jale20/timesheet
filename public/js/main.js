@@ -64,7 +64,7 @@ $(document).ready(function(){
         vacation.text(counter_vacation);
       }
       else if($('#statusComboId_' + $i + ' option:selected').val() == "Overtime"){
-        counter_o_time+=1;
+        counter_o_time += parseInt($('.hours_'+$i).attr('placeholder'));
         over_time.text(counter_o_time);
       }
       else if($('#statusComboId_' + $i + ' option:selected').val() == "Holiday" ||
